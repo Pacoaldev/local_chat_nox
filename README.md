@@ -1,4 +1,8 @@
-# <img src="public/logo.png" height="32" align="center"> Local Chat UI for LM Studio 🏡🤖
+<p align="center">
+  <img src="public/logo.png" alt="Logo de la familia" width="200" />
+</p>
+
+# Local Chat UI for LM Studio 🏡🤖
 
 Una interfaz web moderna, ligera y privada para conectar con tu servidor local de **LM Studio**. 
 Diseñada específicamente para permitir que cualquier persona en tu red local (como tu familia) pueda chatear con tu Inteligencia Artificial desde sus teléfonos o computadoras, sin necesidad de exponer puertos a Internet.
