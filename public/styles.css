@@ -83,6 +83,8 @@ header {
     height: 48px;
     width: auto;
     object-fit: contain;
+    transform: scale(1.8);
+    transform-origin: left center;
 }
 
 .header-text h1 {
