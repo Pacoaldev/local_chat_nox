@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/logo.png" alt="Logo de la familia" width="200" />
+  <img src="public/logo.png" alt="Logo de la familia" width="600" />
 </p>
 
 # Local Chat UI for LM Studio 🏡🤖
