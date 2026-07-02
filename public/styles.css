@@ -85,6 +85,7 @@ header {
     object-fit: contain;
     transform: scale(1.8);
     transform-origin: left center;
+    margin-right: 36px;
 }
 
 .header-text h1 {
