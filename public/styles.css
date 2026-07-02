@@ -481,6 +481,10 @@ main#chat-box::-webkit-scrollbar-thumb {
     }
     header {
         padding: 12px 16px;
+        padding-left: 0;
+    }
+    .app-logo {
+        margin-left: -12px;
     }
     main#chat-box {
         padding: 12px 16px;
