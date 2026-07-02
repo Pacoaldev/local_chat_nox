@@ -67,23 +67,29 @@ header {
     background: rgba(15, 23, 42, 0.4);
 }
 
-.header-content .title-wrapper {
+.header-content {
     display: flex;
     align-items: center;
-    gap: 12px;
-    margin-bottom: 4px;
+    gap: 16px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .app-logo {
-    height: 32px;
+    height: 48px;
     width: auto;
     object-fit: contain;
 }
 
-.header-content h1 {
+.header-text h1 {
     font-size: 1.25rem;
     font-weight: 600;
-    margin-bottom: 0;
+    margin-bottom: 2px;
+    line-height: 1.2;
     background: linear-gradient(to right, #818cf8, #c084fc);
     -webkit-background-clip: text;
     background-clip: text;
