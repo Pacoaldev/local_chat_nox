@@ -67,10 +67,23 @@ header {
     background: rgba(15, 23, 42, 0.4);
 }
 
+.header-content .title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 4px;
+}
+
+.app-logo {
+    height: 32px;
+    width: auto;
+    object-fit: contain;
+}
+
 .header-content h1 {
     font-size: 1.25rem;
     font-weight: 600;
-    margin-bottom: 4px;
+    margin-bottom: 0;
     background: linear-gradient(to right, #818cf8, #c084fc);
     -webkit-background-clip: text;
     background-clip: text;
