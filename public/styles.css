@@ -422,3 +422,64 @@ main#chat-box::-webkit-scrollbar-thumb {
     background: transparent;
     padding: 0;
 }
+
+/* File Attachments CSS */
+#attach-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    padding: 0 10px;
+    padding-left: 16px;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+}
+#attach-btn:hover {
+    color: var(--accent-color);
+}
+#attach-btn svg {
+    width: 22px;
+    height: 22px;
+}
+
+.file-preview-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 0;
+    transition: margin 0.2s;
+}
+.file-preview-container:not(:empty) {
+    margin-bottom: 12px;
+}
+.file-pill {
+    background: rgba(99, 102, 241, 0.2);
+    border: 1px solid rgba(99, 102, 241, 0.4);
+    border-radius: 12px;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.file-pill .remove-file {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 1rem;
+    line-height: 1;
+}
+.file-pill .remove-file:hover {
+    color: #ef4444;
+}
+
+@media (max-width: 768px) {
+    #user-input {
+        padding-left: 10px;
+    }
+    #attach-btn {
+        padding-left: 4px;
+    }
+}
